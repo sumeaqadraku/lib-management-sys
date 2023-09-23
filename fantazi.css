@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+*{
+    background-color:rgb(255, 255, 255)
+}
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px; /* Adjust the gap between books */
+}
+
+.book {
+    text-align: center;
+}
+
+.book img {
+    margin-top:50px;
+    width: 200px; /* Set a fixed width for all book cover images */
+    height: 300px; /* Set a fixed height for all book cover images */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+.book-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
+}
